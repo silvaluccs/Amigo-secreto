@@ -52,6 +52,28 @@ function atualizarListaDeAmigos() {
   });
 }
 
+/**
+ * Sorteia aleatoriamente um amigo da lista e exibe o resultado.
+ * - Se a lista estiver vazia, exibe um alerta e não realiza o sorteio.
+ * - Caso contrário, sorteia um nome e exibe no elemento com id 'resultado'.
+ */
+function sortearAmigo() {
+  if (amigos.length === 0) {
+    alert('Não é possivel realizar o sorteio, pois sua lista de amigos está vazia.');
+    console.log('a lista de amigos está vazia');
+    return;
+  }
+
+  let indexAleatorio = Math.floor(Math.random() * amigos.length);
+  let amigoSorteado = amigos[indexAleatorio];
+
+  document.getElementById('resultado').innerHTML = `O amigo secreto sorteado foi: ${amigoSorteado}`;
+  console.log(`o amigo sorteado foi ${amigoSorteado} do index ${indexAleatorio}`);
+}
+
+
+
+
 
 
 
