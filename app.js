@@ -35,6 +35,25 @@ function adicionarAmigo() {
   atualizarListaDeAmigos();
 }
 
+/**
+ * Atualiza a exibição da lista de amigos na interface.
+ * - Seleciona o elemento HTML com id 'listaAmigos'.
+ * - Limpa o conteúdo atual da lista.
+ * - Para cada amigo no array 'amigos', cria um elemento <li> e adiciona à lista.
+ */
+function atualizarListaDeAmigos() {
+  let listaDeAmigos = document.getElementById('listaAmigos');
+  listaDeAmigos.innerHTML = '';
+
+  amigos.forEach((amigo) => {
+    let liAmigo = document.createElement('li');
+    liAmigo.innerText = amigo;
+    listaDeAmigos.appendChild(liAmigo);
+  });
+}
+
+
+
 
 
 
