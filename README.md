@@ -6,6 +6,9 @@
 Esse projeto representa um challenge do projeto ONE - Oracle Next Education que tem como objetivo aplicar a metódologia PBL
 no tópico praticando a Logica de programação.
 
+![Demonstração do projeto](assets/2025-07-29 22-16-00.gif)
+
+
 # :hammer: Funcionalidades do projeto
     Adicionar nomes: Os usuários escreverão o nome de um amigo em um campo de texto e o adicionarão a uma lista visível ao clicar em "Adicionar".
     
