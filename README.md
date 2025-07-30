@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="assets/demo.gif" alt="Demonstração do projeto">
+    </p>
+
 <h1 align="center"> Challenge Amigo Secreto </h1>
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
@@ -6,7 +10,7 @@
 Esse projeto representa um challenge do projeto ONE - Oracle Next Education que tem como objetivo aplicar a metódologia PBL
 no tópico praticando a Logica de programação.
 
-![Demonstração do projeto](assets/2025-07-29 22-16-00.gif)
+
 
 
 # :hammer: Funcionalidades do projeto
